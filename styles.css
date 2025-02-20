@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 700;
+    color: #f1c40f; /* Gold for your name */
+  }
+  
+  header .tagline {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  header .contact-info {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #fff;
+  }
+  
+  header .social-links {
+    margin: 20px 0;
+  }
+  
+  header .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2em;
+  }
+  
+  header .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #f1c40f; /* Gold */
+    color: #2c3e50; /* Navy Blue */
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+  }
+  
+  header .cta-button:hover {
+    background: #e67e22; /* Darker Gold */
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px 0;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #2c3e50; /* Navy Blue */
+    text-align: center;
+  }
+  
+  /* Skills Grid */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #3498db; /* Teal */
+  }
+  
+  /* Projects */
+  .project-card {
+    margin-bottom: 30px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #3498db; /* Teal */
+  }
+  
+  .project-links a {
+    margin-right: 10px;
+    color: #3498db; /* Teal */
+  }
+  
+  /* Experience */
+  .job-card {
+    margin-bottom: 30px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #3498db; /* Teal */
+  }
+  
+  /* Contact */
+  .contact-links a {
+    display: block;
+    margin: 10px 0;
+    color: #3498db; /* Teal */
+    font-size: 1.2em;
+  }
+  
+  /* Footer */
+  footer {
+    background: #2c3e50; /* Navy Blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
